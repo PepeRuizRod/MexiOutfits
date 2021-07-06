@@ -131,7 +131,7 @@ img {
   .nav__menu {
     position: fixed;
     top: $header-height;
-    left: 0;
+    left: -100%;
     width: 70%;
     height: 100vh;
     padding: 2rem;
@@ -153,10 +153,28 @@ img {
   cursor: pointer;
 }
 /*Show menu*/
-
+.show {
+  left: 0;
+}
 /*Active link*/
-
+.active {
+  position: relative;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 45%;
+  width: 4px;
+  height: 4px;
+  background-color: $dark-color;
+  border-radius: 50%;
+}
 /*Change color header*/
+.scroll-header {
+  background-color: $white-color;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 /*===== HOME =====*/
 
