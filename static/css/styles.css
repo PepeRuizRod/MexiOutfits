@@ -75,6 +75,67 @@ img {
   background-color: #141414;
 }
 
+/*===== HOME =====*/
+.home {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.home__container {
+  height: calc(100vh - 3rem);
+}
+.home__sneaker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.home__shape {
+  width: 220px;
+  height: 220px;
+  background-color: #141414;
+  border-radius: 50%;
+}
+.home__img {
+  position: absolute;
+  top: 1.5rem;
+  width: 275px;
+  transform: rotate(-30deg);
+}
+.home__new {
+  display: block;
+  font-size: 600;
+  font-weight: 1rem;
+}
+.home__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.home__description {
+  margin-bottom: 3rem;
+}
+
+/*BUTTONS*/
+.button {
+  display: inline-block;
+  background-color: #141414;
+  color: #fff;
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-0.25rem);
+}
+
+/*===== FEATURED =====*/
+/*===== COLLECTION =====*/
+/*===== WOMEN SNEAKERS =====*/
+/*===== OFFER =====*/
+/*===== NEW COLLECTION  =====*/
+/*===== NEWSLETTER =====*/
+/*===== FOOTER =====*/
+/* ===== MEDIA QUERIES=====*/
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -155,15 +216,4 @@ img {
 .scroll-header {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/*===== HOME =====*/
-/*BUTTONS*/
-/*===== FEATURED =====*/
-/*===== COLLECTION =====*/
-/*===== WOMEN SNEAKERS =====*/
-/*===== OFFER =====*/
-/*===== NEW COLLECTION  =====*/
-/*===== NEWSLETTER =====*/
-/*===== FOOTER =====*/
-/* ===== MEDIA QUERIES=====*//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
