@@ -1,3 +1,145 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/*===== VARIABLES CSS =====*/
+/*===== Font weight =====*/
+/*===== Colores =====*/
+/*===== Font and typography =====*/
+/*===== Margenes =====*/
+/*===== z index =====*/
+/*===== Rotate img =====*/
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 3rem 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  font-weight: 500;
+  color: #141414;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
   padding: 0;
-}/*# sourceMappingURL=styles.css.map */
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*===== CLASS CSS ===== */
+.section {
+  padding: 5rem 0 2rem;
+}
+
+.section-title {
+  position: relative;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 0.18rem;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #141414;
+}
+
+/*===== LAYOUT =====*/
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #f2f2f2;
+}
+
+/*===== NAV =====*/
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #fff;
+    transition: 0.5s;
+  }
+}
+.nav__item {
+  margin-bottom: 2rem;
+}
+
+.nav__logo {
+  font-weight: 600;
+}
+
+.nav__toggled,
+.nav__shop {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/*Show menu*/
+/*Active link*/
+/*Change color header*/
+/*===== HOME =====*/
+/*BUTTONS*/
+/*===== FEATURED =====*/
+/*===== COLLECTION =====*/
+/*===== WOMEN SNEAKERS =====*/
+/*===== OFFER =====*/
+/*===== NEW COLLECTION  =====*/
+/*===== NEWSLETTER =====*/
+/*===== FOOTER =====*/
+/* ===== MEDIA QUERIES=====*//*# sourceMappingURL=styles.css.map */
