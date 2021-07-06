@@ -90,6 +90,7 @@ img {
   text-align: center;
   letter-spacing: 0.1rem;
 }
+// ==== raya ==========
 .section-title::after {
   content: "";
   position: absolute;
@@ -101,45 +102,15 @@ img {
   margin: auto;
   background-color: $dark-color;
 }
-
-/*===== HOME =====*/
-.home {
-  background-color: $dark-color-lighten;
-  overflow: hidden;
-
-  &__container {
-    height: calc(100vh - 3rem);
-  }
-  &__sneaker {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-  &__shape {
-    width: 220px;
-    height: 220px;
-    background-color: $dark-color;
-    border-radius: 50%;
-  }
-  &__img {
-    position: absolute;
-    top: 1.5rem;
-    width: 275px;
-    transform: $rotate-img;
-  }
-  &__new {
-    display: block;
-    font-size: $font-semi-bold;
-    font-weight: $mb-2;
-  }
-  &__title {
-    font-size: $bigger-font-size;
-    margin-bottom: $mb-1;
-  }
-  &__description {
-    margin-bottom: $mb-6;
-  }
+/*===== LAYOUT =====*/
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: $mb-2;
+  margin-right: $mb-2;
 }
 /*BUTTONS*/
 .button {
@@ -153,7 +124,20 @@ img {
 .button:hover {
   transform: translateY(-0.25rem);
 }
-/*===== FEATURED =====*/
+.button-light {
+  display: inline-block;
+  color: $dark-color;
+  font-weight: $font-bold;
+  align-items: center;
+}
+.button-icon {
+  font-size: 1.25rem;
+  margin-left: $mb-1;
+  transition: 0.3s;
+}
+.button-light:hover .button-icon {
+  transform: translateX(0.25rem);
+}
 
 /*===== COLLECTION =====*/
 
