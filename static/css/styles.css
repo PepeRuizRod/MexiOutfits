@@ -125,6 +125,31 @@ img {
 }
 
 /*===== OFFER =====*/
+.offer__container {
+  grid-template-columns: 55% 45%;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+}
+
+.offer__data {
+  padding: 4rem 0 4rem 1.5rem;
+}
+
+.offer__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.offer__description {
+  margin-bottom: 1.5rem;
+}
+
+.offer__img {
+  width: 153px;
+}
+
 /*===== NEW COLLECTION  =====*/
 /*===== NEWSLETTER =====*/
 /*===== FOOTER =====*/
@@ -326,4 +351,30 @@ img {
 
 .collection__card:hover {
   transform: translateY(-0.5rem);
+}
+
+/*===== OFFER =====*/
+.offer__container {
+  grid-template-columns: 55% 45%;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+}
+
+.offer__data {
+  padding: 4rem 0 4rem 1.5rem;
+}
+
+.offer__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.offer__description {
+  margin-bottom: 1.5rem;
+}
+
+.offer__img {
+  width: 153px;
 }/*# sourceMappingURL=styles.css.map */
