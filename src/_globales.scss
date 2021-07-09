@@ -104,7 +104,8 @@ img {
 }
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1024px;
+  //solucionar problema de pantalla pc:
+  // max-width: 2024px;
   display: grid;
   grid-template-columns: 100%;
   column-gap: 2rem;
