@@ -124,7 +124,6 @@ img {
   grid-template-columns: repeat(auto-fit minmax(220px, 1fr));
 }
 
-/*===== FOOTER =====*/
 /* ===== MEDIA QUERIES=====*/
 .l-header {
   width: 100%;
@@ -470,4 +469,37 @@ img {
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
   font-weight: 600;
+}
+
+/*===== FOOTER =====*/
+.footer__container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.footer__box {
+  margin-bottom: 2rem;
+}
+
+.footer__title {
+  font-size: 1.25rem;
+}
+
+.footer__link {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 0.5rem;
+}
+
+.footer__social {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+}
+
+.footer__copy {
+  padding-top: 3rem;
+  font-size: 0.813rem;
+  color: #141414;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
