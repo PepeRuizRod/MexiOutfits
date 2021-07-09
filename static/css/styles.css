@@ -124,7 +124,6 @@ img {
   grid-template-columns: repeat(auto-fit minmax(220px, 1fr));
 }
 
-/* ===== MEDIA QUERIES=====*/
 .l-header {
   width: 100%;
   position: fixed;
@@ -282,6 +281,20 @@ img {
 
 .sneaker:hover {
   transform: translateY(-0.5rem);
+}
+
+.sneaker__pages {
+  margin-top: 3rem;
+}
+
+.sneaker__pag {
+  padding: 0.5rem 1rem;
+  border: 1px solid #141414;
+}
+
+.sneaker__pag:hover {
+  background-color: #141414;
+  color: #fff;
 }
 
 /*===== COLLECTION =====*/
@@ -502,4 +515,41 @@ img {
   font-size: 0.813rem;
   color: #141414;
   text-align: center;
+}
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .section {
+    padding: 7rem 0;
+  }
+
+  .section-title::after {
+    width: 76px;
+  }
+
+  /*===== NAV =====*/
+  .nav {
+    height: 4.5rem;
+  }
+
+  .nav__menu {
+    margin-left: auto;
+  }
+
+  .nav__list {
+    display: flex;
+  }
+
+  .nav__item {
+    margin-left: 3rem;
+    margin-bottom: 0;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

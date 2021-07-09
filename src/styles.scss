@@ -7,3 +7,33 @@
 @import "../src/newcolle";
 @import "../src/newsletter";
 @import "../src/footer";
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 7rem 0;
+  }
+  .section-title::after {
+    width: 76px;
+  }
+  /*===== NAV =====*/
+  .nav {
+    height: 4.5rem;
+  }
+  .nav__menu {
+    margin-left: auto;
+  }
+  .nav__list {
+    display: flex;
+  }
+  .nav__item {
+    margin-left: $mb-6;
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+}

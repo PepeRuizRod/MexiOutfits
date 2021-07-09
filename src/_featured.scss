@@ -47,3 +47,14 @@
 .sneaker:hover {
   transform: translateY(-0.5rem);
 }
+.sneaker__pages {
+  margin-top: $mb-6;
+}
+.sneaker__pag {
+  padding: 0.5rem 1rem;
+  border: 1px solid $dark-color;
+}
+.sneaker__pag:hover {
+  background-color: $dark-color;
+  color: $white-color;
+}
