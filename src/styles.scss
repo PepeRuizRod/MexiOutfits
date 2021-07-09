@@ -9,6 +9,11 @@
 @import "../src/footer";
 
 /* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 578px) {
+  .collection__container {
+    grid-template-columns: 415px;
+  }
+}
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -35,5 +40,25 @@
   }
   .nav__toggle {
     display: none;
+  }
+  /*===== HOME =====*/
+  .home__container {
+    height: 100vh;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__sneaker {
+    order: 1;
+  }
+  .home__shape {
+    width: 376px;
+    height: 376px;
+  }
+  .home__img {
+    width: 490px;
+    top: 3.5rem;
+    right: 0;
+    left: -1rem;
   }
 }

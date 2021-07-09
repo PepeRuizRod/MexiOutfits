@@ -1,7 +1,7 @@
 /*===== FEATURED =====*/
 .featured__container {
   row-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px.1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .sneaker {
   position: relative;

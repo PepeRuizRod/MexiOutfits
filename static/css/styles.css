@@ -236,7 +236,7 @@ img {
 /*===== FEATURED =====*/
 .featured__container {
   row-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px 0.1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .sneaker {
@@ -518,6 +518,11 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 578px) {
+  .collection__container {
+    grid-template-columns: 415px;
+  }
+}
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -551,5 +556,30 @@ img {
 
   .nav__toggle {
     display: none;
+  }
+
+  /*===== HOME =====*/
+  .home__container {
+    height: 100vh;
+    grid-template-columns: -webkit-max-content -webkit-max-content;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__sneaker {
+    order: 1;
+  }
+
+  .home__shape {
+    width: 376px;
+    height: 376px;
+  }
+
+  .home__img {
+    width: 490px;
+    top: 3.5rem;
+    right: 0;
+    left: -1rem;
   }
 }/*# sourceMappingURL=styles.css.map */
