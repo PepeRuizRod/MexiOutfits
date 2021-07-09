@@ -138,9 +138,3 @@ img {
 .button-light:hover .button-icon {
   transform: translateX(0.25rem);
 }
-
-/*===== WOMEN SNEAKERS =====*/
-.women__container {
-  row-gap: 2rem;
-  grid-template-columns: repeat(auto-fit minmax(220px, 1fr));
-}

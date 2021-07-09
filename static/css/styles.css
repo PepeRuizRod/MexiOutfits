@@ -118,12 +118,6 @@ img {
   transform: translateX(0.25rem);
 }
 
-/*===== WOMEN SNEAKERS =====*/
-.women__container {
-  row-gap: 2rem;
-  grid-template-columns: repeat(auto-fit minmax(220px, 1fr));
-}
-
 .l-header {
   width: 100%;
   position: fixed;
@@ -517,10 +511,20 @@ img {
   text-align: center;
 }
 
+/*===== WOMEN SNEAKERS =====*/
+.women__container {
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 578px) {
   .collection__container {
     grid-template-columns: 415px;
+  }
+
+  .collection__img {
+    width: 260px;
   }
 }
 @media screen and (min-width: 768px) {
