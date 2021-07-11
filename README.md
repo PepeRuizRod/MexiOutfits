@@ -6,5 +6,4 @@ Hermoso sitio web de comercio electrónico receptivo. Tiene un encabezado y una 
 ![pdromoreno7 github io_Ecommerce-Website-Sneakers_shop html](https://user-images.githubusercontent.com/72107810/125204745-6c720f80-e244-11eb-8c81-ad135297be24.png)
 
 ![pdromoreno7 github io_Ecommerce-Website-Sneakers_index html(iPhone X)](https://user-images.githubusercontent.com/72107810/125204730-55332200-e244-11eb-85b7-1187b277b492.png)
-![pdromoreno7 github io_Ecommerce-Website-Sneakers_index html(iPhone X) (1)](https://user-images.githubusercontent.com/72107810/125204731-56fce580-e244-11eb-9ad3-9dc4372ce259.png)
 
